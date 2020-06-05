@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".Academic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/bg"
+                app:srcCompat="@drawable/ic_contact_phone_black_24dp" />
+
+            <TextView
+                android:id="@+id/tvView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/academic_text"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_horizontal"
+                android:text="@string/the_college_offers_a_five_year_under_graduate_degree_courses_in_architecture_b_arch_and_four_years_b_tech_degree_in_biotechnology_civil_engineering_computer_science_engineering_electrical_engineering_fashion_apparel_technology_information_technology_instrumentation_electronics_engineering_mechanical_engineering_and_textile_engineering"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btnContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/academic_btn"
+                android:drawableStart="@drawable/ic_contact_phone_black_24dp"
+                android:paddingStart="8dp"
+                android:paddingBottom="2dp"
+                android:text="Contact Us"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnNoticeBoard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/academic_btn"
+                android:drawableStart="@drawable/ic_content_paste_black_24dp"
+                android:paddingStart="8dp"
+                android:paddingBottom="2dp"
+                android:text="Notice Board (Facebook)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAcademic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/academic_btn"
+                android:drawableStart="@drawable/ic_work_black_24dp"
+                android:paddingStart="8dp"
+                android:paddingBottom="2dp"
+                android:text="Academic "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

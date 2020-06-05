@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "45414240689",
+    "firebase_url": "https://student-companion-app-499ee.firebaseio.com",
+    "project_id": "student-companion-app-499ee",
+    "storage_bucket": "student-companion-app-499ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45414240689:android:e340bcb18e326a36546d90",
+        "android_client_info": {
+          "package_name": "com.example.studentcompanionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45414240689-dso4nt9qhr9m6d9dc7i8evve21p8g0rh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studentcompanionapp",
+            "certificate_hash": "5ee566a7f25e3833353ce4f3a6d25fb1c8777c7a"
+          }
+        },
+        {
+          "client_id": "45414240689-i5fs20hevic4rvmces4f7tv7kuh3l8ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV12SY2H1K-x8mkIlwgips5K4Jh6tqNmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45414240689-i5fs20hevic4rvmces4f7tv7kuh3l8ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

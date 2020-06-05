@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentcompanionapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/icon_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name=".AlarmReciever"></receiver>
+        <activity android:name=".Assignment"></activity>
+        <activity android:name=".tutorial_screen" />
+        <activity android:name=".Id" />
+        <activity android:name=".show_idcard" />
+        <activity android:name=".ToDoList" />
+        <activity android:name=".biodata" />
+        <activity android:name=".see" />
+        <activity android:name=".Add" />
+        <activity android:name=".backPaper" />
+        <activity android:name=".academicFinal" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Academic" />
+        <activity android:name=".Syllabus" />
+        <activity android:name=".TimeTable" />
+        <activity android:name=".register" />
+        <activity android:name=".Log_in" />
+        <activity
+            android:name=".splash_screen"
+            android:label=" ">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".YourService"/>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
